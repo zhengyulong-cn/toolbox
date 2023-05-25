@@ -1,0 +1,21 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "private": true,
+  "scripts": {
+    "dev:core": "pnpm --filter @toolbox/core dev --host",
+    "dev:server": "pnpm --filter @toolbox/server start:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.3"
+  }
+}

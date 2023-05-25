@@ -1,0 +1,32 @@
+.homeBox {
+  height: 100vh;
+  .homeBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 75vh;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 0%);
+    border: 1px solid $secondary-color;
+    row-gap: 1.5rem;
+    .header {
+      font-size: 4rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .formBox {
+      width: 18rem;
+    }
+  }
+  .footer {
+    position: absolute;
+    width: 100%;
+    bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
